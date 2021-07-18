@@ -18,6 +18,8 @@ namespace Laughter
         public static int[] results = new int[500];
 
         public static string AllCardsFile = @"D:\cards.csv";
+        public static string Filename = @"D:\Deck - Amulet Titan.txt";
+        public static int MaxCMC = 30;
 
         public class SimpleCard 
         {
@@ -39,11 +41,10 @@ namespace Laughter
             DateTime start = DateTime.Now;
             
             Dictionary<string, int> allCards = LoadCards();
-            int[] Quantities = new int[20];
+            int[] Quantities = new int[MaxCMC];
             
             IList<SimpleCard> decklist = new List<SimpleCard>();
-            string Filename = @"D:\Deck - Amulet Titan.txt";
-
+            
             using (StreamReader sr = new StreamReader(@Filename))
             {
                 try
@@ -69,7 +70,7 @@ namespace Laughter
 
                 foreach (SimpleCard card in decklist)
                 {
-                    if (card.convertedManaCost >= 0 && card.convertedManaCost <= 30)
+                    if (card.convertedManaCost >= 0 && card.convertedManaCost <= MaxCMC)
                     {
                         Quantities[card.convertedManaCost]++;
                     }
@@ -124,22 +125,7 @@ namespace Laughter
                 }
             }
 
-            Console.WriteLine("Cards loaded.");
             return allCards;
-        }
-
-        public static bool CheckTotalCMC(IList<SimpleCard> list)
-        {
-            int totalCMC = 0;
-
-            if(list.Count == 0) { return true; }
-
-            foreach (SimpleCard card in list)
-            {
-                totalCMC += card.convertedManaCost;
-            }
-
-            return (totalCMC < 20);
         }
     }
 }
