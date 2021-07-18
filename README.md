@@ -9,7 +9,7 @@ It needs a smart, efficient manner to analyze the cards by CMCs.
 2. MTG Card Files: https://mtgjson.com/downloads/all-files/#allprintings
 3. CSV Editor
 4. Deck File in .txt of choice.
-5. 5. Required Reading
+5. Required Reading
 
 ### Microsoft Visual Studio
 https://visualstudio.microsoft.com/downloads/
