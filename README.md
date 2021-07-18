@@ -50,3 +50,5 @@ Run the program.
 7. On that note, it's probably a good idea to provide the source decklists, too, if possible.
 
 Hope this is helpful feedback.
+
+Also, I deliberately chose to not limit the cardpool to Modern.  The older formats will have lower average mana curves, and Laughter's power will increase proportionally.  This might be worth your time to review on a per-format basis for practice, fun, etc.
