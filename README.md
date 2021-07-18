@@ -43,7 +43,7 @@ Run the program.
 #### Todo
 1. Determine the minimum and maximum number of cards possible to exile
 2. Evaluate which approach (Permutation, Combination, or Variation) suits and why
-3. Iterate between the Min and Max cards (inclusive) and generate an appropriate sample set for each iteration
+3. Iterate between the Min and Max cards (inclusive) and generate every appropriate sample set for each iteration
 4. Evaluate and tally results appropriately
 5. Provide the results in a meaningful fashion (Console or CSV https://stackoverflow.com/questions/18757097/writing-data-into-csv-file-in-c-sharp )
 6. When producing data like this for public consumption, it's good to include the bounds (upper and lower), average, and mode.  This helps people analyze and readily digest the spread and skew of the data.  It also helps them formulate and raise questions, if they have any, and gives them a starting point for research.
