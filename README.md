@@ -23,7 +23,7 @@ Community Edition is free.
 
 ### CSV Editor
 Excel, Python, C#, whatever will all parse it, but you'll save some time with a good library.
-You'll save my time by editing the file with a minimal amount of work.
+You'll save more time by editing the file with a minimal amount of work.
 Sorry.  You'll need to edit the file in something other than Google sheets.  Just doesn't like importing the large file.
 
 ### Deck File
@@ -46,3 +46,7 @@ Run the program.
 3. Iterate between the Min and Max cards (inclusive) and generate an appropriate sample set for each iteration
 4. Evaluate and tally results appropriately
 5. Provide the results in a meaningful fashion (Console or CSV https://stackoverflow.com/questions/18757097/writing-data-into-csv-file-in-c-sharp )
+6. When producing data like this for public consumption, it's good to include the bounds (upper and lower), average, and mode.  This helps people analyze and readily digest the spread and skew of the data.  It also helps them formulate and raise questions, if they have any, and gives them a starting point for research.
+7. On that note, it's probably a good idea to provide the source decklists, too, if possible.
+
+Hope this is helpful feedback.
