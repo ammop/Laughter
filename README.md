@@ -16,8 +16,11 @@ Community Edition is free.
 
 ### MTG Card Files
 -> All Set Files
+
 -> Zip
+
 -> Download & Unzip
+
 -> Edit the file in Excel or similar and delete all columns but name and convertedManaCost
 
 ### CSV Editor
